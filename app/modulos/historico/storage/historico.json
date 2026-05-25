@@ -1,0 +1,363 @@
+[
+  {
+    "nome_arquivo": "teste_dados.csv",
+    "linhas": 6,
+    "colunas": 4,
+    "percentual_geral": 75.0,
+    "severidade_global": "ALTA",
+    "justificativa": "A média geral de completude indica baixa qualidade dos dados.",
+    "recomendacao": "Ação imediata necessária: corrigir falhas de preenchimento e revisar a origem dos dados.",
+    "detalhes": {
+      "validacoes": {
+        "valido": true,
+        "problemas": {
+          "dataset_vazio": false,
+          "total_linhas": 6,
+          "total_colunas": 4,
+          "colunas_duplicadas": [],
+          "colunas_nulas": [],
+          "colunas_faltantes": [],
+          "colunas_extras": [],
+          "tipos_invalidos": {}
+        }
+      },
+      "regras": [
+        {
+          "tipo": "regra",
+          "nome": "Campos Vazios",
+          "resultado": {
+            "id": {
+              "vazios": 0,
+              "percentual": 0.0,
+              "severidade": "BAIXA"
+            },
+            "nome": {
+              "vazios": 2,
+              "percentual": 33.33,
+              "severidade": "ALTA"
+            },
+            "email": {
+              "vazios": 2,
+              "percentual": 33.33,
+              "severidade": "ALTA"
+            },
+            "idade": {
+              "vazios": 2,
+              "percentual": 33.33,
+              "severidade": "ALTA"
+            }
+          }
+        },
+        {
+          "tipo": "regra",
+          "nome": "Registros Duplicados (Email)",
+          "resultado": {
+            "total_duplicados": 2,
+            "percentual": 33.33,
+            "severidade": "ALTA",
+            "emails": []
+          }
+        }
+      ],
+      "metricas": {
+        "geral": 75.0,
+        "por_coluna": {
+          "id": 100.0,
+          "nome": 66.67,
+          "email": 66.67,
+          "idade": 66.67
+        }
+      },
+      "severidade_por_coluna": {
+        "id": {
+          "percentual": 100.0,
+          "severidade": "BAIXA"
+        },
+        "nome": {
+          "percentual": 66.67,
+          "severidade": "ALTA"
+        },
+        "email": {
+          "percentual": 66.67,
+          "severidade": "ALTA"
+        },
+        "idade": {
+          "percentual": 66.67,
+          "severidade": "ALTA"
+        }
+      }
+    },
+    "data_analise": "2026-01-11T20:31:38.258716"
+  },
+  {
+    "nome_arquivo": "teste_dados.csv",
+    "linhas": 6,
+    "colunas": 4,
+    "percentual_geral": 75.0,
+    "severidade_global": "ALTA",
+    "justificativa": "A média geral de completude indica baixa qualidade dos dados.",
+    "recomendacao": "Ação imediata necessária: corrigir falhas de preenchimento e revisar a origem dos dados.",
+    "detalhes": {
+      "validacoes": {
+        "valido": true,
+        "problemas": {
+          "dataset_vazio": false,
+          "total_linhas": 6,
+          "total_colunas": 4,
+          "colunas_duplicadas": [],
+          "colunas_nulas": [],
+          "colunas_faltantes": [],
+          "colunas_extras": [],
+          "tipos_invalidos": {}
+        }
+      },
+      "regras": [
+        {
+          "tipo": "regra",
+          "nome": "Campos Vazios",
+          "resultado": {
+            "id": {
+              "vazios": 0,
+              "percentual": 0.0,
+              "severidade": "BAIXA"
+            },
+            "nome": {
+              "vazios": 2,
+              "percentual": 33.33,
+              "severidade": "ALTA"
+            },
+            "email": {
+              "vazios": 2,
+              "percentual": 33.33,
+              "severidade": "ALTA"
+            },
+            "idade": {
+              "vazios": 2,
+              "percentual": 33.33,
+              "severidade": "ALTA"
+            }
+          }
+        },
+        {
+          "tipo": "regra",
+          "nome": "Registros Duplicados (Email)",
+          "resultado": {
+            "total_duplicados": 2,
+            "percentual": 33.33,
+            "severidade": "ALTA",
+            "emails": []
+          }
+        }
+      ],
+      "metricas": {
+        "geral": 75.0,
+        "por_coluna": {
+          "id": 100.0,
+          "nome": 66.67,
+          "email": 66.67,
+          "idade": 66.67
+        }
+      },
+      "severidade_por_coluna": {
+        "id": {
+          "percentual": 100.0,
+          "severidade": "BAIXA"
+        },
+        "nome": {
+          "percentual": 66.67,
+          "severidade": "ALTA"
+        },
+        "email": {
+          "percentual": 66.67,
+          "severidade": "ALTA"
+        },
+        "idade": {
+          "percentual": 66.67,
+          "severidade": "ALTA"
+        }
+      }
+    },
+    "data_analise": "2026-01-11T20:31:52.827321"
+  },
+  {
+    "nome_arquivo": "teste_dados.csv",
+    "linhas": 6,
+    "colunas": 4,
+    "percentual_geral": 75.0,
+    "severidade_global": "ALTA",
+    "justificativa": "A média geral de completude indica baixa qualidade dos dados.",
+    "recomendacao": "Ação imediata necessária: corrigir falhas de preenchimento e revisar a origem dos dados.",
+    "detalhes": {
+      "validacoes": {
+        "valido": true,
+        "problemas": {
+          "dataset_vazio": false,
+          "total_linhas": 6,
+          "total_colunas": 4,
+          "colunas_duplicadas": [],
+          "colunas_nulas": [],
+          "colunas_faltantes": [],
+          "colunas_extras": [],
+          "tipos_invalidos": {}
+        }
+      },
+      "regras": [
+        {
+          "tipo": "regra",
+          "nome": "Campos Vazios",
+          "resultado": {
+            "id": {
+              "vazios": 0,
+              "percentual": 0.0,
+              "severidade": "BAIXA"
+            },
+            "nome": {
+              "vazios": 2,
+              "percentual": 33.33,
+              "severidade": "ALTA"
+            },
+            "email": {
+              "vazios": 2,
+              "percentual": 33.33,
+              "severidade": "ALTA"
+            },
+            "idade": {
+              "vazios": 2,
+              "percentual": 33.33,
+              "severidade": "ALTA"
+            }
+          }
+        },
+        {
+          "tipo": "regra",
+          "nome": "Registros Duplicados (Email)",
+          "resultado": {
+            "total_duplicados": 2,
+            "percentual": 33.33,
+            "severidade": "ALTA",
+            "emails": []
+          }
+        }
+      ],
+      "metricas": {
+        "geral": 75.0,
+        "por_coluna": {
+          "id": 100.0,
+          "nome": 66.67,
+          "email": 66.67,
+          "idade": 66.67
+        }
+      },
+      "severidade_por_coluna": {
+        "id": {
+          "percentual": 100.0,
+          "severidade": "BAIXA"
+        },
+        "nome": {
+          "percentual": 66.67,
+          "severidade": "ALTA"
+        },
+        "email": {
+          "percentual": 66.67,
+          "severidade": "ALTA"
+        },
+        "idade": {
+          "percentual": 66.67,
+          "severidade": "ALTA"
+        }
+      }
+    },
+    "data_analise": "2026-01-11T20:32:11.774709"
+  },
+  {
+    "nome_arquivo": "teste_dados.csv",
+    "linhas": 6,
+    "colunas": 4,
+    "percentual_geral": 75.0,
+    "severidade_global": "ALTA",
+    "justificativa": "A média geral de completude indica baixa qualidade dos dados.",
+    "recomendacao": "Ação imediata necessária: corrigir falhas de preenchimento e revisar a origem dos dados.",
+    "detalhes": {
+      "validacoes": {
+        "valido": true,
+        "problemas": {
+          "dataset_vazio": false,
+          "total_linhas": 6,
+          "total_colunas": 4,
+          "colunas_duplicadas": [],
+          "colunas_nulas": [],
+          "colunas_faltantes": [],
+          "colunas_extras": [],
+          "tipos_invalidos": {}
+        }
+      },
+      "regras": [
+        {
+          "tipo": "regra",
+          "nome": "Campos Vazios",
+          "resultado": {
+            "id": {
+              "vazios": 0,
+              "percentual": 0.0,
+              "severidade": "BAIXA"
+            },
+            "nome": {
+              "vazios": 2,
+              "percentual": 33.33,
+              "severidade": "ALTA"
+            },
+            "email": {
+              "vazios": 2,
+              "percentual": 33.33,
+              "severidade": "ALTA"
+            },
+            "idade": {
+              "vazios": 2,
+              "percentual": 33.33,
+              "severidade": "ALTA"
+            }
+          }
+        },
+        {
+          "tipo": "regra",
+          "nome": "Registros Duplicados (Email)",
+          "resultado": {
+            "total_duplicados": 2,
+            "percentual": 33.33,
+            "severidade": "ALTA",
+            "emails": []
+          }
+        }
+      ],
+      "metricas": {
+        "geral": 75.0,
+        "por_coluna": {
+          "id": 100.0,
+          "nome": 66.67,
+          "email": 66.67,
+          "idade": 66.67
+        }
+      },
+      "severidade_por_coluna": {
+        "id": {
+          "percentual": 100.0,
+          "severidade": "BAIXA"
+        },
+        "nome": {
+          "percentual": 66.67,
+          "severidade": "ALTA"
+        },
+        "email": {
+          "percentual": 66.67,
+          "severidade": "ALTA"
+        },
+        "idade": {
+          "percentual": 66.67,
+          "severidade": "ALTA"
+        }
+      }
+    },
+    "id_analise": "ca7c4a12-33a4-4e19-973a-b570a1123e35",
+    "data_analise": "2026-01-11T20:33:59.424593"
+  }
+]

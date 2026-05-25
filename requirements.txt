@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pydantic
+pandas
+openpyxl
+reportlab
+python-multipart
+nicegui
+pytest
